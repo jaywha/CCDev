@@ -1,0 +1,76 @@
+{
+    "spellName": "GetNeighbors",
+    "uuidMost": "7805752030858920835L",
+    "validSpell": "1b",
+    "spellList": [
+        {
+            "data": {
+                "key": "constantNumber",
+                "constantValue": "1"
+            },
+            "x": 0,
+            "y": 0
+        },
+        {
+            "data": {
+                "key": "selectorCaster"
+            },
+            "x": 0,
+            "y": 1
+        },
+        {
+            "data": {
+                "params": {
+                    "_position": 2,
+                    "_radius": 3
+                },
+                "key": "selectorNearbyLiving"
+            },
+            "x": 1,
+            "y": 0
+        },
+        {
+            "data": {
+                "params": {
+                    "_target": 3
+                },
+                "key": "operatorEntityPosition"
+            },
+            "x": 1,
+            "y": 1
+        },
+        {
+            "data": {
+                "params": {
+                    "_target": 3,
+                    "_position": 2
+                },
+                "key": "operatorClosestToPoint"
+            },
+            "x": 2,
+            "y": 0
+        },
+        {
+            "data": {
+                "params": {
+                    "_target": 3
+                },
+                "key": "connector"
+            },
+            "x": 2,
+            "y": 1
+        },
+        {
+            "data": {
+                "params": {
+                    "_number": 0,
+                    "_target": 3
+                },
+                "key": "trickDebug"
+            },
+            "x": 3,
+            "y": 0
+        }
+    ],
+    "uuidLeast": -66517421006497
+}

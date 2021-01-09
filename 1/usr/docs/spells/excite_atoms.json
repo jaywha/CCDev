@@ -1,0 +1,73 @@
+{
+    "spellName": "Excite Atoms",
+    "uuidMost": "-248027987891828920L",
+    "validSpell": "1b",
+    "spellList": [
+        {
+            "data": {
+                "params": {
+                    "_power": 2,
+                    "_position": 4
+                },
+                "key": "trickExplode"
+            },
+            "x": 0,
+            "y": 0
+        },
+        {
+            "data": {
+                "key": "constantNumber",
+                "constantValue": "1"
+            },
+            "x": 0,
+            "y": 1
+        },
+        {
+            "data": {
+                "key": "errorSuppressor"
+            },
+            "x": 0,
+            "y": 2
+        },
+        {
+            "data": {
+                "params": {
+                    "_ray": 2,
+                    "_max": 0,
+                    "_position": 4
+                },
+                "key": "operatorVectorRaycast"
+            },
+            "x": 1,
+            "y": 0
+        },
+        {
+            "data": {
+                "params": {
+                    "_target": 4
+                },
+                "key": "operatorEntityLook"
+            },
+            "x": 1,
+            "y": 1
+        },
+        {
+            "data": {
+                "params": {
+                    "_target": 2
+                },
+                "key": "operatorEntityPosition"
+            },
+            "x": 2,
+            "y": 0
+        },
+        {
+            "data": {
+                "key": "selectorCaster"
+            },
+            "x": 2,
+            "y": 1
+        }
+    ],
+    "uuidLeast": -66517421006497
+}

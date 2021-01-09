@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.globals": [
+        "turtle",
+        "shell",
+        "peripheral"
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-field"
+    ]
+}
